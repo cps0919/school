@@ -1,0 +1,35 @@
+<view class='nav'>
+   <view class='nav-heard'>
+      <image src='{{logo}}'></image>
+   </view>
+   
+</view>
+<!--picture -->
+<view class='search'>
+   <view class='search-pictrue'>
+         <image src='{{picture}}'></image>
+   </view>
+</view>
+<!--nav-search  -->
+<view class='nav-search'>
+      <view class=' nav-column' wx:for='{{search}}' wx:for-item='item1'   wx:key="*this">
+         <view class='nav-row' wx:for='{{item1}}'  wx:key="*this">
+               <image src='{{item}}'></image>
+         </view>
+      </view>
+   </view>
+   <!--搜索栏  -->
+   <view class='sousuo'>
+      <view class='sousuo-1'>
+            <image src='{{sousuo}}'></image>
+      </view>
+      <view class='sousuo-2'>
+         <input type='text'></input>
+         <button size='mini' type='primary'>搜索</button>
+      </view>
+      <view class='sousuo-3'>
+         <view class='list-1' wx:for="{{sousuolist}}" wx:for-item="item1"  wx:key="*this">
+            <view class='list-1s' wx:for="{{item1}}"  wx:key="*this">{{item}}</view>
+         </view>
+      </view>
+   </view>

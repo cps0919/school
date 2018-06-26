@@ -1,0 +1,173 @@
+.xs-font{
+   font-size: 20rpx
+}
+.md-font{
+   font-size: 32rpx;
+   color: #f3f3f1;
+   text-align: center
+}
+.nav{
+ height: 80rpx;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ line-height: 80rpx;
+ padding-bottom: 20rpx
+}
+.nav-list{
+
+   flex: 1;
+   margin: 0 4rpx;
+   border-right: 1rpx solid #17599c ;
+}
+.nav view:last-child{
+   border: none
+}
+ 
+/*广告栏  */
+.barner{
+   margin: 10rpx 0;
+}
+.barner .barner-info{
+   display: flex;
+   height: 350rpx;
+}
+.barner image{
+   flex: 1;
+   display: inline-block;
+   height: 350rpx;
+   width: 100%;
+}
+/*信息栏  */
+.info{
+   display: flex;
+   flex-direction: row;
+   padding: 20rpx;
+}
+.info-contain{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
+.info-contain-1{
+    margin: 5rpx;
+   flex: 1;
+   height: 170rpx
+}
+.info-contain-1 image{
+   width: 100%;
+   height: 100%
+}
+.info-xiaozhang{
+    margin: 20rpx;
+    display: flex;
+    flex-direction: column;
+    font-size: 35rpx;
+    color:#4897e6;
+    background: #fff;
+    border: 2px solid  #f3f3f1
+}
+.info-xiaozhang image{
+   width:20%;
+   height: 100%;
+   float: right;
+   opacity: 0.5
+}
+.info-xiaozhang-1{
+   height: 100rpx;
+   flex: 1;
+   margin: 5rpx;
+   line-height: 100rpx
+   }
+.info-xiaozhang-1{
+ text-align: left;
+   border-bottom: 2px solid #f3f3f1;
+   margin: 0 30rpx;
+}
+.footer{
+   height: 60rpx;
+   padding: 10rpx 20rpx;
+   background: #f0efed;
+   opacity: 0.8
+}
+.footer-info{
+   height: 60rpx;
+   display: flex;
+   flex-direction: row;
+}
+.footer-infos{
+   flex: 1;
+   font-size: 30rpx;
+   text-align: center;
+   margin: 0 1rpx;
+   background: radial-gradient(80rpx at center,gray,#222222);
+   line-height: 60rpx;
+   color: white
+}
+.footer image{
+   width: 100%;
+   height: 100%;
+}
+.footer .logo3{
+   margin-top: 20rpx;
+   height: 100%;
+   width: 100%;
+}
+/*grogress */
+#heard{
+   height: 80rpx;
+   text-align: center;
+   background: #606060;
+   line-height: 80rpx;
+   font-size: 40rpx;
+   font-family: "宋体";
+   color: white;
+}
+.grogress{
+   margin: 30rpx 30rpx 10rpx 30rpx;
+   border: 2rpx solid #ccc;
+   background: white;
+   font-family: "宋体";
+}
+.grogress image{
+   width: 100%;
+   height: 100%
+}
+.grogress .main{
+   display: flex;
+   flex-direction: column;
+
+}
+.heard{
+   background: #606060;
+   font-size: 35rpx;
+   color: white;
+   padding: 20rpx
+}
+.main-1{
+   height: 70rpx;
+   border-bottom: 1px solid #ccc;
+   font-size: 30rpx;
+   line-height: 70rpx;
+   color: #555555;
+   padding: 0 0 0 10rpx
+
+}
+.main-1 image{
+   width: 40rpx;
+   height: 30rpx;
+   color: #555555
+}
+.main-1:first-child{
+      border-top: 1px solid #ccc;
+}
+.pictrue{
+   height: 250rpx;
+   padding: 60rpx 20rpx 20rpx 20rpx;
+}
+navigator{
+   display: inline-block
+}
+navigator:hover{
+   background: none
+}

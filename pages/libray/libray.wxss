@@ -1,0 +1,92 @@
+/*导航栏  */
+
+.nav-heard{
+   background:  #f6f6f6;
+    margin: 0 10rpx 
+}
+.nav-heard image{
+  height: 130rpx;
+
+}
+.nav-search{
+   height: 350rpx;
+   display: flex;
+   flex-direction: column;
+   padding: 20rpx 30rpx;
+    background: #f0efed ;
+}
+.nav-column{
+   flex: 1;
+   display: flex;
+   flex-direction: row
+}
+.nav-row{
+   flex: 1;
+   margin: 7rpx;
+}
+.nav-column image{
+   width: 100%;
+   height: 100%
+}
+.nav-row:hover{
+   border: 3px solid skyblue;
+   border-radius: 10rpx
+}
+/*搜索栏  */
+.search{
+   height: 330rpx;
+}
+.search-pictrue{
+   width: 100%;
+   height: 100%
+}
+.search-pictrue image{
+   height: 100%;
+   width: 100%;
+}
+
+/*搜索  */
+ image{
+   width: 100%;
+   height: 100%;
+}
+.sousuo{
+   height: 420rpx;
+   display: flex;
+   flex-direction: column;
+     padding: 30rpx
+}
+.sousuo-1{
+   flex: 3;
+ 
+}
+.sousuo-2{
+   flex: 2
+}
+.sousuo-2 input{
+   border: 1rpx solid skyblue;
+   display: inline-block;
+   text-align: center;
+   width: 99%;
+}
+.sousuo-2 button{
+   margin-top:12rpx;
+   border-radius: 0rpx;
+   display: inline-block;
+}
+.sousuo-3{
+   flex: 5;
+   display: flex;
+   flex-direction: column;
+}
+.list-1{
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+}
+.list-1s{
+   flex: 1;
+   font-size: 30rpx;
+   font-family: "宋体";
+   color: #999
+}

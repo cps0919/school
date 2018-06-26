@@ -1,0 +1,35 @@
+.school{
+   height: 100%
+}
+.heard{
+   height: 60rpx;
+   background: #d3d3d3;
+   color: 30rpx;
+}
+.heard view:last-child{
+   height: 60rpx;
+   background: #a6a38d;
+   text-align: centr;
+   width: 300rpx;
+   line-height: 60rpx;
+   padding: 0 20rpx
+
+}
+.main-title{
+   font-size: 50rpx;
+   text-align: center;
+   height: 150rpx;
+   line-height: 150rpx;
+   border-bottom: 5rpx dashed skyblue;
+   margin: 0 50rpx;
+
+}
+.main-main{
+   padding: 0 50rpx;
+   font-size: 30rpx;
+ 
+}
+.main-main text,textarea{
+     text-indent: 40rpx;
+    text-align: left;
+}

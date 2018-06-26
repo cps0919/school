@@ -1,0 +1,12 @@
+<view id='heard'>校园新闻</view>
+<view class="grogress" wx:for="{{grogress}}"  wx:key="*this">
+   <view class='heard' style='{{item.color}}'>{{item.name}}</view>
+   <view class='pictrue'><image src='{{item.url}}'></image></view>
+   <view class='main'>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info1}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info2}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info3}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info4}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info5}}</navigator></view>
+   </view>
+</view>

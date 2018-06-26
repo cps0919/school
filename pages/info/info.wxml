@@ -1,0 +1,22 @@
+<!--导航栏  -->
+<view class='nav' style='background:url("{{infonav}}")'>
+   <view class='nav-list'><a target="#display1">学校要闻</a></view>
+   <view class='nav-list' >校园动态</view>
+   <view class='nav-list' >媒体关注</view>
+</view>
+<view  id='display1'>
+      <!--热点  -->
+<view class='fire'>
+<image src='{{fire}}'></image>
+<view class='fire-content'>{{fireinfo[0].info}}
+<navigator style='color:skyblue;font-size:30rpx'>[点击查看详情.....]</navigator>
+</view>
+
+</view>
+<!--信息栏  -->
+<view class='info' wx:for="{{fireinfo}}">
+   <navigator>
+      <text>{{item.date}}</text> | {{item.info}}
+   </navigator>
+</view>
+</view>

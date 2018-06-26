@@ -1,0 +1,38 @@
+.nav{
+   height: 100rpx;
+   display: flex;
+}
+.nav-list{
+   flex: 1;
+   line-height: 100rpx;
+   text-align: center;
+   
+}
+#display1{
+   display:block
+}
+  .nav-list:nth-child(1):hover #display1 {
+   display: none
+}  
+.fire{
+   height: 200rpx;
+   border-bottom: 4rpx dashed #012f8d;
+   font-size: 45rpx;
+   position: relative
+}
+.fire image{
+   height: 50rpx;
+   width: 50rpx;
+   position: absolute;
+   top: 45rpx
+}
+.fire-content{
+   margin: 50rpx 0rpx 0rpx 60rpx;
+}
+.info{
+   height: 40rpx;
+   font-size: 30rpx;
+   padding: 0 10rpx;
+   margin: 30rpx 0;
+   overflow: hidden
+}

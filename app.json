@@ -1,0 +1,37 @@
+{
+  "pages":[
+     "pages/index/index",
+     "pages/grogress/grogress",
+     "pages/school/school",
+     "pages/info/info",
+     "pages/libray/libray",
+     "pages/news/news"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "南宁学院",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "img/首页(1).png",
+      "selectedIconPath": "img/首页2(1).png"
+    },{
+      "pagePath": "pages/libray/libray",
+      "text": "图书馆",
+      "iconPath": "img/图书馆2.png",
+      "selectedIconPath": "img/图书馆2.png"
+   },{
+      "pagePath": "pages/news/news",
+      "text": "新闻中心",
+      "iconPath": "img/新闻中心2.png",
+      "selectedIconPath": "img/新闻中心.png"
+   }
+   ]
+  }
+
+}

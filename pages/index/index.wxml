@@ -1,0 +1,69 @@
+<!--导航栏  -->
+<view class='nav md-font' style='background:url("{{navbg1}}")'>
+   <view class='nav-list'><navigator url='../school/school'>学院概况</navigator></view>
+   <view class='nav-list'>新闻中心</view>
+   <view class='nav-list'>院系部门</view>
+   <view class='nav-list'>图书馆</view>
+   <view class='nav-list' >教学科研</view>
+</view>
+<!--广告栏  -->
+<view class='barner'>
+   <swiper indicator-dots='true' autoplay='true' interval='2000' circular='true'>
+      <swiper-item><image src='{{barnerimg5}}'></image></swiper-item>
+      <swiper-item><image src='{{barnerimg3}}'></image></swiper-item>
+      <swiper-item><image src='{{barnerimg2}}'></image></swiper-item>
+      <swiper-item><image src='{{barnerimg1}}'></image></swiper-item>
+   </swiper>
+</view>
+<!--信息栏  -->
+<view class='info'>
+   <view class='info-contain'>
+      <view class='info-contain-1' wx:for="{{info1}}" wx:key="*this">
+         <image src='{{item}}'></image>
+      </view>
+   </view>
+   <view class='info-contain'>
+         <view class='info-contain-1' wx:for="{{info2}}"  wx:key="*this">
+            <image src='{{item}}'></image>
+         </view>
+   </view>
+   
+</view>
+<view class='info-xiaozhang '>
+      <view class='info-xiaozhang-1'>
+         <image src='{{infoxiaozhang}}'></image>
+      </view>
+      
+      <view class='info-xiaozhang-1'>
+          <navigator style='font-size:40rpx'>-书记信箱:<text style='color:#999'>nndxdsz@126.com</text></navigator>
+      </view>
+      <view class='info-xiaozhang-1'>
+          <navigator style='font-size:40rpx'>-校长信箱:<text style='color:#999'>nndxdsz@126.com</text></navigator>
+      </view>
+      <view class='info-xiaozhang-1'>
+         <navigator style='font-size:40rpx'>-董事长信箱:<text style='color:#999'>nndxdsz@126.com</text></navigator>
+      </view>
+   </view>
+   <!--info  -->
+      <!-- <view id='heard'>三大优势</view> -->
+<view class="grogress" wx:for="{{grogress}}"  wx:key="*this">
+   <view class='heard'>{{item.name}}</view>
+   <view class='pictrue'><image src='{{grogress[0].url}}'></image></view>
+   <view class='main'>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info1}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info2}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info3}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info4}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info5}}</navigator></view>
+   </view>
+</view>
+   <!--尾部  -->
+   <view class='footer'>
+      <view class='footer-info'>
+         <view class='footer-infos'>教育部</view>
+         <view class='footer-infos'>中国普法网</view>
+         <view class='footer-infos'>广西教育厅</view>
+         <view class='footer-infos'>广西图书馆</view>
+      </view>
+      <!-- <view class='logo3' style='background:url("{{navbg1}}")'><image src='{{logo3}}'></image></view> -->
+   </view>

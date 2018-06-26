@@ -1,0 +1,12 @@
+<view id='heard'>三大优势</view>
+<view class="grogress" wx:for="{{grogress}}">
+   <view class='heard'>{{item.name}}</view>
+   <view class='pictrue'><image src='{{grogress[0].url}}'></image></view>
+   <view class='main'>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info1}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info2}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info3}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info4}}</navigator></view>
+      <view class='main-1'><image src='{{icon1}}'></image><navigator>{{item.info5}}</navigator></view>
+   </view>
+</view>
